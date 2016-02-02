@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2go-MO-B39">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pollution-->
+        <scene sceneID="UsV-Z0-1AV">
+            <objects>
+                <navigationController id="LK1-Yf-Owd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pollution" image="factory-pollution.png" id="PHg-o3-yAJ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BFw-oa-G1S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nfl-MV-uyA" kind="relationship" relationship="rootViewController" id="7Yn-Au-Q0o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kf-RL-CXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="-1614"/>
+        </scene>
+        <!--Pollution View Controller-->
+        <scene sceneID="m27-U1-7d1">
+            <objects>
+                <viewController id="nfl-MV-uyA" customClass="PollutionViewController" customModule="homework1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WXq-uH-1iE"/>
+                        <viewControllerLayoutGuide type="bottom" id="UkB-EP-s4m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cD4-5Q-Mc7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Springfield_Nuclear_Power_Plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="STq-98-KUN">
+                                <rect key="frame" x="191" y="272" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxa-XF-zO4">
+                                <rect key="frame" x="277" y="82" width="68" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.97048752920000003" blue="0.9888956418" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="HELLO">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fnn-MS-PfK" kind="show" id="Gqc-oA-lg2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="STq-98-KUN" firstAttribute="leading" secondItem="cD4-5Q-Mc7" secondAttribute="leading" id="6bW-rF-3Bz"/>
+                            <constraint firstItem="STq-98-KUN" firstAttribute="top" secondItem="WXq-uH-1iE" secondAttribute="bottom" id="Kke-Ka-UjG"/>
+                            <constraint firstItem="UkB-EP-s4m" firstAttribute="top" secondItem="STq-98-KUN" secondAttribute="bottom" id="TKf-hl-gIG"/>
+                            <constraint firstAttribute="trailing" secondItem="STq-98-KUN" secondAttribute="trailing" id="Wl1-KB-9N0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IrL-x9-OhV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5L-2a-sCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="-801"/>
+        </scene>
+        <!--Hello World!-->
+        <scene sceneID="8Yw-0H-HNc">
+            <objects>
+                <viewController title="Hello World!" id="fnn-MS-PfK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9zT-SS-goI"/>
+                        <viewControllerLayoutGuide type="bottom" id="DiR-rC-Hu2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oaP-h8-9OJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Blinky_Art.png" translatesAutoresizingMaskIntoConstraints="NO" id="bcm-XV-Xnw">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83100759759999998" green="0.49918702640000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bcm-XV-Xnw" firstAttribute="centerY" secondItem="oaP-h8-9OJ" secondAttribute="centerY" id="8bg-Dn-HLS"/>
+                            <constraint firstItem="bcm-XV-Xnw" firstAttribute="centerX" secondItem="oaP-h8-9OJ" secondAttribute="centerX" id="iRX-mz-pEe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zuh-K5-uO6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="-53"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0EN-lr-W0q">
+            <objects>
+                <tabBarController id="2go-MO-B39" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="RiH-E9-eOY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LK1-Yf-Owd" kind="relationship" relationship="viewControllers" id="Svp-Jq-bND"/>
+                        <segue destination="Ipz-DQ-Tcc" kind="relationship" relationship="viewControllers" id="tzk-gp-Uld"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJ5-Lo-TIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1372" y="-2512"/>
+        </scene>
+        <!--Death-->
+        <scene sceneID="o7b-zq-Ge2">
+            <objects>
+                <navigationController id="Ipz-DQ-Tcc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Death" image="toxic.png" id="ZZa-vW-F5t"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1sb-Hn-Jm9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="W6z-uJ-crT" kind="relationship" relationship="rootViewController" id="zMS-I0-PPp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhS-3K-pLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="-1614"/>
+        </scene>
+        <!--Death-->
+        <scene sceneID="N1s-ot-qhh">
+            <objects>
+                <viewController title="Death" id="W6z-uJ-crT" customClass="DeathViewController" customModule="homework1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZMe-xb-TkY"/>
+                        <viewControllerLayoutGuide type="bottom" id="mgk-N2-kzF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m61-Xx-SGp" customClass="Death">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skull.png" translatesAutoresizingMaskIntoConstraints="NO" id="wSQ-wR-gDP">
+                                <rect key="frame" x="180" y="82" width="240" height="451"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cF-JC-2Pz">
+                                <rect key="frame" x="220" y="286" width="53" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="0tt-i5-SH9"/>
+                                    <constraint firstAttribute="height" constant="53" id="1RI-0s-5z4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="1" green="0.97048752920000003" blue="0.9888956418" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="BOO!"/>
+                                <connections>
+                                    <action selector="ButtonClicked:" destination="W6z-uJ-crT" eventType="touchUpInside" id="LYq-h9-n0h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.041046944600000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0cF-JC-2Pz" firstAttribute="top" secondItem="m61-Xx-SGp" secondAttribute="top" constant="293" id="EXj-UX-VQn"/>
+                            <constraint firstItem="0cF-JC-2Pz" firstAttribute="leading" secondItem="m61-Xx-SGp" secondAttribute="leadingMargin" constant="70" id="SRy-YR-G6K"/>
+                            <constraint firstItem="mgk-N2-kzF" firstAttribute="top" secondItem="wSQ-wR-gDP" secondAttribute="bottom" id="ZlL-ZO-Ob2"/>
+                            <constraint firstAttribute="bottom" secondItem="0cF-JC-2Pz" secondAttribute="bottom" constant="277" id="eQa-zz-Uqx"/>
+                            <constraint firstItem="wSQ-wR-gDP" firstAttribute="leading" secondItem="m61-Xx-SGp" secondAttribute="leading" id="i93-wi-hnI"/>
+                            <constraint firstItem="wSQ-wR-gDP" firstAttribute="top" secondItem="ZMe-xb-TkY" secondAttribute="bottom" id="sG6-Wc-9rv"/>
+                            <constraint firstAttribute="trailing" secondItem="wSQ-wR-gDP" secondAttribute="trailing" id="xcE-aT-LkZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sbH-ka-4pj"/>
+                    <connections>
+                        <outlet property="DeathView" destination="wSQ-wR-gDP" id="x1L-dd-sPM"/>
+                        <outlet property="booButton" destination="0cF-JC-2Pz" id="1Wi-FC-5v5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFc-Qv-IVG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="-801"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blinky_Art.png" width="320" height="313"/>
+        <image name="Springfield_Nuclear_Power_Plant2.png" width="375" height="627"/>
+        <image name="factory-pollution.png" width="30" height="30"/>
+        <image name="skull.png" width="522" height="800"/>
+        <image name="toxic.png" width="29" height="30"/>
+    </resources>
+</document>
