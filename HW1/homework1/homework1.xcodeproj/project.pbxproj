@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D301E8921C6410FC0010A5F7 /* pieces nfi.otf in Resources */ = {isa = PBXBuildFile; fileRef = D301E8901C6410FC0010A5F7 /* pieces nfi.otf */; };
+		D301E8931C6410FC0010A5F7 /* pieces nfi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D301E8911C6410FC0010A5F7 /* pieces nfi.ttf */; };
 		D3179C0A1C5EDEA00018D486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3179C091C5EDEA00018D486 /* AppDelegate.swift */; };
 		D3179C0C1C5EDEA00018D486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3179C0B1C5EDEA00018D486 /* ViewController.swift */; };
 		D3179C0F1C5EDEA00018D486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3179C0D1C5EDEA00018D486 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D301E8901C6410FC0010A5F7 /* pieces nfi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pieces nfi.otf"; sourceTree = "<group>"; };
+		D301E8911C6410FC0010A5F7 /* pieces nfi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pieces nfi.ttf"; sourceTree = "<group>"; };
 		D3179C061C5EDEA00018D486 /* homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3179C091C5EDEA00018D486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3179C0B1C5EDEA00018D486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				D3179C091C5EDEA00018D486 /* AppDelegate.swift */,
 				D3179C0B1C5EDEA00018D486 /* ViewController.swift */,
 				D3179C0D1C5EDEA00018D486 /* Main.storyboard */,
+				D301E8901C6410FC0010A5F7 /* pieces nfi.otf */,
+				D301E8911C6410FC0010A5F7 /* pieces nfi.ttf */,
 				D3179C101C5EDEA00018D486 /* Assets.xcassets */,
 				D3179C121C5EDEA00018D486 /* LaunchScreen.storyboard */,
 				D3179C151C5EDEA00018D486 /* Info.plist */,
@@ -279,6 +285,8 @@
 				D3179C141C5EDEA00018D486 /* LaunchScreen.storyboard in Resources */,
 				D37BF4DE1C604EDC009F9D2B /* tsunami.png in Resources */,
 				D37BF4DF1C604EDC009F9D2B /* wolf-cartoon.png in Resources */,
+				D301E8921C6410FC0010A5F7 /* pieces nfi.otf in Resources */,
+				D301E8931C6410FC0010A5F7 /* pieces nfi.ttf in Resources */,
 				D3179C111C5EDEA00018D486 /* Assets.xcassets in Resources */,
 				D37BF4E61C605CF9009F9D2B /* Blinky_Art.png in Resources */,
 				D37BF4D91C604EDC009F9D2B /* drink-toast.png in Resources */,
