@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Random ColorVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RandomColorVC" customModule="randomeColors" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLc-r3-pXo" userLabel="top">
+                                <rect key="frame" x="0.0" y="20" width="600" height="198"/>
+                                <color key="backgroundColor" red="0.12857304219999999" green="1" blue="0.1159484878" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-nu-3iV" userLabel="mid">
+                                <rect key="frame" x="0.0" y="201" width="600" height="198"/>
+                                <color key="backgroundColor" red="1" green="0.15170052940000001" blue="0.089035239949999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjy-Ua-5hy" userLabel="btm">
+                                <rect key="frame" x="0.0" y="402" width="600" height="198"/>
+                                <color key="backgroundColor" red="0.0484923939" green="0.77377823560000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Oe-mP-k7c">
+                                <rect key="frame" x="280" y="30" width="40" height="30"/>
+                                <state key="normal" title="Bloop"/>
+                                <connections>
+                                    <action selector="BloopClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gvo-uH-u36"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cjy-Ua-5hy" secondAttribute="trailing" constant="-20" id="1mk-Al-Zk3"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3NK-Ac-0tu"/>
+                            <constraint firstItem="qLc-r3-pXo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="6wR-dP-WhI"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8LU-vG-uaT"/>
+                            <constraint firstItem="qLc-r3-pXo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="IoL-XX-I5y"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="TWc-UY-RAN"/>
+                            <constraint firstItem="qLc-r3-pXo" firstAttribute="centerX" secondItem="1Oe-mP-k7c" secondAttribute="centerX" id="Tir-UF-esU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cjy-Ua-5hy" secondAttribute="bottom" id="W89-OY-Hg9"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="trailing" secondItem="Cjy-Ua-5hy" secondAttribute="trailing" id="Wvh-4X-cJS"/>
+                            <constraint firstItem="qLc-r3-pXo" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="btn-ng-fdz"/>
+                            <constraint firstItem="Cjy-Ua-5hy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="dF8-e4-MuU"/>
+                            <constraint firstItem="1Oe-mP-k7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dOz-7E-QhA"/>
+                            <constraint firstItem="qLc-r3-pXo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="htV-KY-eRg"/>
+                            <constraint firstItem="Cjy-Ua-5hy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="lnQ-UB-X0a"/>
+                            <constraint firstItem="1Oe-mP-k7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="oBD-P7-BSc"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="odd-QC-a1m"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="top" secondItem="qLc-r3-pXo" secondAttribute="bottom" id="ufF-2z-KUg"/>
+                            <constraint firstItem="9ff-nu-3iV" firstAttribute="leading" secondItem="Cjy-Ua-5hy" secondAttribute="leading" id="w5M-Oi-yTG"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ufF-2z-KUg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="BloopButton" destination="1Oe-mP-k7c" id="K51-pd-wXT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

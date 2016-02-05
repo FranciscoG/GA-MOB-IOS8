@@ -8,17 +8,11 @@
 
 import UIKit
 
-// http://classictutorials.com/2014/08/generate-a-random-color-in-swift/
+func getRand() -> CGFloat{
+    return CGFloat(drand48());
+}
 func getRandomColor() -> UIColor{
-    
-    let randomRed:CGFloat = CGFloat(drand48());
-    
-    let randomGreen:CGFloat = CGFloat(drand48());
-    
-    let randomBlue:CGFloat = CGFloat(drand48());
-    
-    return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0);
-    
+    return UIColor(red: getRand(), green: getRand(), blue: getRand(), alpha: 1.0);
 }
 
 class DeathViewController: UIViewController {

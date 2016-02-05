@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  homework1
+//  class3work1
 //
-//  Created by Francisco Gutierrez on 1/31/16.
+//  Created by Francisco Gutierrez on 2/2/16.
 //  Copyright © 2016 Francisco Gutierrez. All rights reserved.
 //
 
@@ -35,14 +35,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-//        for family: String in UIFont.familyNames()
-//        {
-//            print("\(family)")
-//            for names: String in UIFont.fontNamesForFamilyName(family)
-//            {
-//                print("== \(names)")
-//            }
-//        }
     }
 
     func applicationWillTerminate(application: UIApplication) {
