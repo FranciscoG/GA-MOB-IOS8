@@ -16,6 +16,9 @@
 		D31EA4DC1C6653D5007A70FD /* homework1_part2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EA4DB1C6653D5007A70FD /* homework1_part2UITests.swift */; };
 		D31EA4EA1C66611E007A70FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EA4E91C66611E007A70FD /* HomeViewController.swift */; };
 		D31EA4EC1C666E42007A70FD /* 8bit-me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D31EA4EB1C666E42007A70FD /* 8bit-me.jpg */; };
+		D31EA4F01C6687A6007A70FD /* InfoModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EA4EF1C6687A6007A70FD /* InfoModalVC.swift */; };
+		D31EA4F21C668D12007A70FD /* GoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EA4F11C668D12007A70FD /* GoalVC.swift */; };
+		D3A6A4611C6692EB004F134A /* hackscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3A6A4601C6692EB004F134A /* hackscreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D31EA4DD1C6653D5007A70FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31EA4E91C66611E007A70FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D31EA4EB1C666E42007A70FD /* 8bit-me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8bit-me.jpg"; sourceTree = "<group>"; };
+		D31EA4EF1C6687A6007A70FD /* InfoModalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoModalVC.swift; sourceTree = "<group>"; };
+		D31EA4F11C668D12007A70FD /* GoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalVC.swift; sourceTree = "<group>"; };
+		D3A6A4601C6692EB004F134A /* hackscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hackscreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 			children = (
 				D31EA4BB1C6653D4007A70FD /* AppDelegate.swift */,
 				D31EA4BD1C6653D4007A70FD /* LoginViewController.swift */,
+				D31EA4EF1C6687A6007A70FD /* InfoModalVC.swift */,
 				D31EA4BF1C6653D4007A70FD /* Main.storyboard */,
+				D3A6A4601C6692EB004F134A /* hackscreen.jpg */,
+				D31EA4F11C668D12007A70FD /* GoalVC.swift */,
 				D31EA4EB1C666E42007A70FD /* 8bit-me.jpg */,
 				D31EA4E91C66611E007A70FD /* HomeViewController.swift */,
 				D31EA4C21C6653D4007A70FD /* Assets.xcassets */,
@@ -240,6 +249,7 @@
 			files = (
 				D31EA4EC1C666E42007A70FD /* 8bit-me.jpg in Resources */,
 				D31EA4C61C6653D4007A70FD /* LaunchScreen.storyboard in Resources */,
+				D3A6A4611C6692EB004F134A /* hackscreen.jpg in Resources */,
 				D31EA4C31C6653D4007A70FD /* Assets.xcassets in Resources */,
 				D31EA4C11C6653D4007A70FD /* Main.storyboard in Resources */,
 			);
@@ -267,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D31EA4BE1C6653D4007A70FD /* LoginViewController.swift in Sources */,
+				D31EA4F21C668D12007A70FD /* GoalVC.swift in Sources */,
 				D31EA4BC1C6653D4007A70FD /* AppDelegate.swift in Sources */,
+				D31EA4F01C6687A6007A70FD /* InfoModalVC.swift in Sources */,
 				D31EA4EA1C66611E007A70FD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +507,7 @@
 				D31EA4E21C6653D5007A70FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31EA4E31C6653D5007A70FD /* Build configuration list for PBXNativeTarget "homework1-part2Tests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				D31EA4E51C6653D5007A70FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31EA4E61C6653D5007A70FD /* Build configuration list for PBXNativeTarget "homework1-part2UITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				D31EA4E81C6653D5007A70FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

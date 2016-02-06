@@ -50,18 +50,17 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     @IBAction func loginPressed(sender: UIButton!) {
         let isAllowed = checkPassword(emailInput.text!, pw: passwordInput.text!)
+//        let isAllowed = true;
+        
         if (isAllowed) {
-            print("login correct")
             performSegueWithIdentifier("homeSegue", sender: nil)
         } else {
-            print("login failed")
             failLogin(emailInput)
             failLogin(passwordInput)
-            
         }
         
     }
