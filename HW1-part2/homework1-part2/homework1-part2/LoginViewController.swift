@@ -57,6 +57,8 @@ class LoginViewController: UIViewController {
 //        let isAllowed = true;
         
         if (isAllowed) {
+            emailInput.layer.borderColor = normalBorderColor
+            passwordInput.layer.borderColor = normalBorderColor
             performSegueWithIdentifier("homeSegue", sender: nil)
         } else {
             failLogin(emailInput)
