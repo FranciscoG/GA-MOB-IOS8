@@ -6,7 +6,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="pieces nfi.otf">
+        <mutableArray key="pieces nfi.ttf">
             <string>PiecesNFI</string>
         </mutableArray>
     </customFonts>
