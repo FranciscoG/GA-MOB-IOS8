@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lgq-dU-tMD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="homework3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikc-V0-Vrf">
+                                <rect key="frame" x="15" y="15" width="570" height="570"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2l-c4-rLB">
+                                <rect key="frame" x="163" y="180" width="275" height="116"/>
+                                <color key="backgroundColor" red="0.54816132620812263" green="0.65599664975145155" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="CLB-Pk-C3N"/>
+                                    <constraint firstAttribute="width" constant="275" id="Qby-Zb-MkS"/>
+                                </constraints>
+                                <string key="text">TODO: When this is swiped horizontally, a modal should appear. It needs to have an image view and a dismiss button that dismissed the modal. Do this in code.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBr-kO-FSa">
+                                <rect key="frame" x="220" y="316" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="hll-Yd-NjI"/>
+                                    <constraint firstAttribute="height" constant="30" id="reT-Sm-cuT"/>
+                                </constraints>
+                                <state key="normal" title="Display Table View"/>
+                                <connections>
+                                    <action selector="displayTableTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJW-la-wqH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="lBr-kO-FSa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MMl-7y-mDP"/>
+                            <constraint firstItem="Ikc-V0-Vrf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.95" id="OWb-Fp-Xp3"/>
+                            <constraint firstItem="B2l-c4-rLB" firstAttribute="centerX" secondItem="Ikc-V0-Vrf" secondAttribute="centerX" id="ZuC-oU-DKf"/>
+                            <constraint firstItem="Ikc-V0-Vrf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cF4-rF-iff"/>
+                            <constraint firstItem="lBr-kO-FSa" firstAttribute="top" secondItem="B2l-c4-rLB" secondAttribute="bottom" constant="20" id="gnG-qy-vsC"/>
+                            <constraint firstItem="Ikc-V0-Vrf" firstAttribute="top" secondItem="B2l-c4-rLB" secondAttribute="bottom" constant="-281" id="guf-jQ-qEX"/>
+                            <constraint firstItem="Ikc-V0-Vrf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kgR-mM-Qno"/>
+                            <constraint firstItem="Ikc-V0-Vrf" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.95" id="vwp-I2-IrV"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dbh-3p-AWZ" appends="YES" id="LK1-vo-PH6"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="DwI-t3-y8o"/>
+                    <connections>
+                        <outlet property="borderView" destination="Ikc-V0-Vrf" id="LiX-Dp-ydb"/>
+                        <outlet property="swipeGesture" destination="dbh-3p-AWZ" id="R8k-HU-ffG"/>
+                        <segue destination="SI3-8B-9cv" kind="presentation" identifier="showMyModal" id="cvB-qY-DsB"/>
+                        <segue destination="oZu-9o-rjr" kind="show" identifier="AnimalTable" id="enG-bh-8yu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dbh-3p-AWZ"/>
+            </objects>
+            <point key="canvasLocation" x="1027" y="407"/>
+        </scene>
+        <!--Array Table View Controller-->
+        <scene sceneID="Hmm-yb-Cy0">
+            <objects>
+                <tableViewController id="oZu-9o-rjr" customClass="ArrayTableViewController" customModule="homework3" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9jZ-8V-ODU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Q1r-KI-EeH">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q1r-KI-EeH" id="lSa-Il-4Xw">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="oZu-9o-rjr" id="YlB-B0-wb4"/>
+                            <outlet property="delegate" destination="oZu-9o-rjr" id="A9g-LX-V93"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evK-BN-KI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1690" y="885"/>
+        </scene>
+        <!--MyModal-->
+        <scene sceneID="l9z-bB-lXQ">
+            <objects>
+                <viewController title="MyModal" id="SI3-8B-9cv" customClass="PicModalVC" customModule="homework3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KMa-oa-KLD"/>
+                        <viewControllerLayoutGuide type="bottom" id="GcG-cY-D78"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wMV-Qj-Vsm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creepy.gif" translatesAutoresizingMaskIntoConstraints="NO" id="P72-69-L09" customClass="FLAnimatedImageView">
+                                <rect key="frame" x="90" y="69" width="420" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="fXI-7z-JN1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa7-Uh-ske">
+                                <rect key="frame" x="268" y="324" width="65" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="UHY-oZ-eGM"/>
+                                    <constraint firstAttribute="height" constant="30" id="hak-N3-ADb"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissTapped:" destination="SI3-8B-9cv" eventType="touchUpInside" id="2hS-NX-Nor"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pa7-Uh-ske" firstAttribute="centerX" secondItem="wMV-Qj-Vsm" secondAttribute="centerX" id="1hv-kh-PIt"/>
+                            <constraint firstItem="Pa7-Uh-ske" firstAttribute="top" secondItem="P72-69-L09" secondAttribute="bottom" constant="55" id="6UQ-G4-O01"/>
+                            <constraint firstItem="P72-69-L09" firstAttribute="width" secondItem="wMV-Qj-Vsm" secondAttribute="width" multiplier="0.7" id="GdF-r3-38G"/>
+                            <constraint firstItem="P72-69-L09" firstAttribute="centerX" secondItem="wMV-Qj-Vsm" secondAttribute="centerX" id="Ms6-9w-w5U"/>
+                            <constraint firstItem="P72-69-L09" firstAttribute="top" secondItem="KMa-oa-KLD" secondAttribute="bottom" constant="49" id="xlD-Of-uoK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gifView" destination="P72-69-L09" id="FKk-3u-yLK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tuc-Ls-jUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="1239"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W59-nY-VOP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lgq-dU-tMD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cZN-WE-vAr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RhL-Xd-DgD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpJ-eg-TVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="-285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="creepy.gif" width="500" height="307"/>
+    </resources>
+</document>

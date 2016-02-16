@@ -1,0 +1,3 @@
+target 'homework3' do
+  pod 'FLAnimatedImage', '~> 1.0'
+end
