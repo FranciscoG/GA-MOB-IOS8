@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Lesson04
-//
-//  Created by Rudd Taylor on 9/28/14.
-//  Copyright (c) 2014 General Assembly. All rights reserved.
-//
-
 import UIKit
 import SnapKit
 
@@ -19,7 +11,7 @@ TODO two: Make this class a UITableViewDelegate and UITableViewDataSource that s
 
 class ArrayViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var itemList : [String] = ["hello"]
+    var itemList : [String] = []
     
     lazy var listTextInput = MyViewComponents().textField()
     lazy var listTable = MyViewComponents().tableViewWithCell("singleItem")
