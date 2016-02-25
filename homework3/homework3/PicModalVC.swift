@@ -14,9 +14,10 @@ class PicModalVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = NSBundle.mainBundle().pathForResource("creepy", ofType: "gif")
-        let data = NSData(contentsOfFile: path!)
-        gifView.animatedImage = FLAnimatedImage.init(animatedGIFData: data!)
+        if let path = NSBundle.mainBundle().pathForResource("creepy", ofType: "gif") {
+            let data = NSData(contentsOfFile: path)
+            gifView.animatedImage = FLAnimatedImage.init(animatedGIFData: data!)
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -31,7 +32,7 @@ class PicModalVC: UIViewController {
     
     func performAnimation() {
         
-        UIView.animateWithDuration(3.0, delay: 0.2, options: .CurveEaseOut, animations: {
+        UIView.animateWithDuration(3.0, delay: 0.2, options: [.CurveEaseOut, .AllowUserInteraction], animations: {
             self.view.layer.backgroundColor = UIColor(red: 100/255, green: 10/255 , blue: 10/255, alpha: 1.0).CGColor
             }, completion: nil)
         
