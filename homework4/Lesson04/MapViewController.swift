@@ -15,8 +15,7 @@ class MapViewController: UIViewController, UITableViewDataSource, UITableViewDel
     
     lazy var leftTextField = MyViewComponents().textField()
     lazy var rightTextField = MyViewComponents().textField()
-//    lazy var pairListTable = MyViewComponents().tableViewWithCell("pairItem")
-    let pairListTable = UITableView()
+    lazy var pairListTable = MyViewComponents().tableViewWithCell("pairItem")
     
     func addItem(textField: UITextField) {
         pairList[leftTextField.text!] = rightTextField.text
@@ -72,21 +71,15 @@ class MapViewController: UIViewController, UITableViewDataSource, UITableViewDel
         // make data work
         pairListTable.dataSource = self;
         pairListTable.delegate = self;
-        pairListTable.backgroundColor = UIColor.whiteColor()
-        pairListTable.registerClass(TwoColCell.self, forCellReuseIdentifier: "pairItem")
-        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("pairItem", forIndexPath: indexPath) as! TwoColCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("pairItem", forIndexPath: indexPath)
         let index = pairList.startIndex.advancedBy(indexPath.row)
         let key = pairList.keys[index]
         
-        cell.label1?.text = key
-        cell.label2?.text = pairList[key]!
-        
-        
+        cell.textLabel?.text = key + "  :  " + pairList[key]!
         return cell
     }
     
