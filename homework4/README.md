@@ -1,0 +1,2 @@
+
+Note to self to reduce future minor frustrations.  When I added the Cocoapod to the existing project I was getting a "cannot load underlying module SnapKit" issue. I had to comment out any SnapKit specific code, build the project and then the Framework become available
