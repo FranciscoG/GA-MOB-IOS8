@@ -1,0 +1,261 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ThirdViewController"
+provides-nominal:
+- "C8Lesson0719ThirdViewController"
+provides-member:
+- ["C8Lesson0719ThirdViewController", ""]
+provides-dynamic-lookup:
+- "textView3"
+- "prepareForSegue"
+- "viewDidLoad"
+depends-top-level:
+- "UIViewController"
+- "UIStoryboardSegue"
+- "AnyObject"
+- "ThirdViewController"
+- !private "StringLiteralType"
+- !private "Helpers"
+- !private "print"
+- "UITextView"
+- !private "=="
+depends-member:
+- !private ["PSs9AnyObject", "Helpers"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "saveToFile"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "textView3"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Helpers"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "textView3"]
+- !private ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "Helpers"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "textView3"]
+- !private ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Helpers"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "textView3"]
+- !private ["PSs9Equatable", "title"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "Helpers"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "textView3"]
+- !private ["PSs8Hashable", "title"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["C8Lesson077Helpers", "init"]
+- !private ["C8Lesson077Helpers", "saveToFile"]
+- !private ["PSo8NSCoding", "Helpers"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textView3"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "Helpers"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "textView3"]
+- !private ["PSo26NSExtensionRequestHandling", "title"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Helpers"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textView3"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Helpers"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textView3"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["C8Lesson0719ThirdViewController", "AnyObject"]
+- !private ["C8Lesson0719ThirdViewController", "Helpers"]
+- ["C8Lesson0719ThirdViewController", "UIStoryboardSegue"]
+- ["C8Lesson0719ThirdViewController", "UITextView"]
+- ["C8Lesson0719ThirdViewController", "deinit"]
+- ["C8Lesson0719ThirdViewController", "init"]
+- ["C8Lesson0719ThirdViewController", "prepareForSegue"]
+- !private ["C8Lesson0719ThirdViewController", "print"]
+- ["C8Lesson0719ThirdViewController", "textView3"]
+- ["C8Lesson0719ThirdViewController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Helpers"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textView3"]
+- !private ["PSo21UIAppearanceContainer", "title"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Helpers"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "textView3"]
+- !private ["PSo18UIContentContainer", "title"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Helpers"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textView3"]
+- !private ["PSo18UIFocusEnvironment", "title"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Helpers"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textView3"]
+- !private ["CSo11UIResponder", "title"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "Helpers"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "textView3"]
+- !private ["PSo16UIStateRestoring", "title"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "Helpers"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textView3"]
+- !private ["PSo18UITraitEnvironment", "title"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Helpers"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextView"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "textView3"]
+- !private ["CSo16UIViewController", "title"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "C8Lesson077Helpers"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "C8Lesson0719ThirdViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "441b3af9a691424ffdd2e3da42617505"
