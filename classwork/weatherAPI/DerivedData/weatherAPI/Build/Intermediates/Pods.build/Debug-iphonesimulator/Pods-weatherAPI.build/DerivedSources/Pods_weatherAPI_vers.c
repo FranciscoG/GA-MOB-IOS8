@@ -1,0 +1,1 @@
+ const unsigned char Pods_weatherAPIVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_weatherAPI  PROJECT:Pods-1" "\n"; const double Pods_weatherAPIVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "dd7937bcb5f3e8f142348e80bacf4660"
+build_time: [512183900, 606959000]
+inputs:
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [512178181, 0]

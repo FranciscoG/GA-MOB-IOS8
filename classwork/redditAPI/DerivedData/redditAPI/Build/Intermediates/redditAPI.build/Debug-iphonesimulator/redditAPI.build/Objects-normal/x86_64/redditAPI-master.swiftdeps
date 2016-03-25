@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "578c8d491b7b5c9ad6a937ef29ef6183"
+build_time: [512184016, 189603000]
+inputs:
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/redditAPI/RedditTableVC.swift": [512184016, 0]
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/redditAPI/AppDelegate.swift": [512181224, 0]
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/redditAPI/StoryVC.swift": [512183389, 0]

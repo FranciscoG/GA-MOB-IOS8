@@ -1,7 +1,7 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "3c9739dc2626c659f31fc2a8d11a4043"
-build_time: [511578329, 347722000]
+build_time: [512001791, 568966000]
 inputs:
   "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/webViewClass/webViewClass/HistoryVC.swift": [511578329, 0]
   "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/webViewClass/webViewClass/AppDelegate.swift": [511406914, 0]
-  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/webViewClass/webViewClass/ViewController.swift": [511576450, 0]
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/webViewClass/webViewClass/ViewController.swift": [511925494, 0]

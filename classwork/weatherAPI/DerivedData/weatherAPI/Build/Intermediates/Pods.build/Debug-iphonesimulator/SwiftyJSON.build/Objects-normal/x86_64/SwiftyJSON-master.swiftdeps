@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b319817bf26e3894f6ef04980f541a13"
+build_time: [512177258, 379210000]
+inputs:
+  "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [512176619, 0]

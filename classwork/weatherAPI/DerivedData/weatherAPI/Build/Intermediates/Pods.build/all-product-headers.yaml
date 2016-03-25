@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/Pods_weatherAPI.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-weatherAPI-umbrella.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/Pods/Target Support Files/Pods-weatherAPI/Pods-weatherAPI-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_weatherAPI-Swift.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/Pods_weatherAPI.framework/Headers/Pods_weatherAPI-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/Pods_weatherAPI.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-weatherAPI.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/weatherAPI/DerivedData/weatherAPI/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
