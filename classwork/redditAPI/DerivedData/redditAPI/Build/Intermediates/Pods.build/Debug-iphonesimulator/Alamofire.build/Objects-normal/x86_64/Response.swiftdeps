@@ -7,20 +7,20 @@ provides-member:
 - ["V9Alamofire8Response", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSHTTPURLResponse"
 - "CustomDebugStringConvertible"
+- "Timeline"
+- "NSHTTPURLResponse"
+- "NSURLRequest"
+- !private "UnicodeScalarType"
+- "Response"
+- !private "!="
+- !private "StringLiteralType"
 - "CustomStringConvertible"
 - "Result"
-- !private "UnicodeScalarType"
-- !private "??"
-- "Response"
-- "NSData"
-- !private "StringLiteralType"
-- !private "!="
-- "String"
 - "ErrorType"
-- "NSURLRequest"
-- "Timeline"
+- "NSData"
+- !private "??"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "length"]

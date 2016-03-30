@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '505B6CF825DD44B2706355C4'
+               BlueprintIdentifier = '404CE886261FBF76C19EFE64'
                BlueprintName = 'Pods-redditAPI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_redditAPI.framework'>

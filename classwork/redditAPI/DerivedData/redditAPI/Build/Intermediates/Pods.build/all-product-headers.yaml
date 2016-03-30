@@ -31,6 +31,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Pods_redditAPI.framework/Headers",
       'contents': [
         {

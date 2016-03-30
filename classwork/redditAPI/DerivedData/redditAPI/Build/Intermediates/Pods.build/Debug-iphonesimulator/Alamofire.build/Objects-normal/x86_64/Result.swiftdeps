@@ -7,15 +7,15 @@ provides-member:
 - ["O9Alamofire6Result", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CustomStringConvertible"
-- !private "BooleanLiteralType"
 - "String"
-- "Result"
-- !private "!"
-- "CustomDebugStringConvertible"
-- "Bool"
 - !private "StringLiteralType"
+- "Bool"
+- !private "!"
+- !private "BooleanLiteralType"
+- "Result"
+- "CustomStringConvertible"
 - "ErrorType"
+- "CustomDebugStringConvertible"
 depends-member:
 - !private ["PSs9AnyObject", "init"]
 - !private ["Sb", "deinit"]

@@ -107,23 +107,30 @@ SWIFT_CLASS("_TtC9redditAPI11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
+@class UIRefreshControl;
 @class UITableView;
 @class NSIndexPath;
 @class UITableViewCell;
 @class UIStoryboardSegue;
+@class UISegmentedControl;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9redditAPI13RedditTableVC")
-@interface RedditTableVC : UITableViewController
+@interface RedditTableVC : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) UIImage * __nullable phImage;
+@property (nonatomic, strong) UIRefreshControl * __nonnull refreshControl;
+@property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * __null_unspecified mySegments;
 - (void)viewDidLoad;
-- (void)getDataFromReddit;
+- (void)getDataFromReddit:(NSString * __nonnull)subreddit;
+- (IBAction)subsTapped:(id __nonnull)sender;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * __nonnull)tableView;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

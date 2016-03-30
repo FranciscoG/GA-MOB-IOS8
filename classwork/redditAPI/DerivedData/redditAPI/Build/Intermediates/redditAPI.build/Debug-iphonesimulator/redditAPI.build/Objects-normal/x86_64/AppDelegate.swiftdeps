@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C9redditAPI11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "applicationWillResignActive"
-- "window"
 - "applicationWillTerminate"
+- "applicationWillResignActive"
 - "application"
-- "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
+- "window"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "AnyObject"
-- "AppDelegate"
-- "UIApplication"
 - "UIResponder"
+- "AppDelegate"
 - !private "BooleanLiteralType"
 - "UIApplicationDelegate"
-- "NSObject"
+- "UIApplication"
 - "Bool"
+- "AnyObject"
 - "UIWindow"
+- "NSObject"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -216,4 +216,8 @@ depends-external:
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"

@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C9redditAPI7StoryVC", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "webView"
-- "didReceiveMemoryWarning"
 - "storyoLoad"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "webView"
 depends-top-level:
+- "StoryVC"
+- "NSURLRequest"
 - "UIViewController"
 - "UIWebView"
-- "NSURLRequest"
-- "StoryVC"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]
@@ -195,4 +195,8 @@ depends-external:
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/Gutierrez/ios-class/GA-MOB-IOS8/classwork/redditAPI/DerivedData/redditAPI/Build/Products/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
 interface-hash: "60a9d05ffc44b886fa2508e0d56b2372"
