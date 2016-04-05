@@ -82,7 +82,7 @@ foobaz.call{ (result, response, error) -> Void in
     }
     if let result = result {
         if let datastring = NSString(data: result, encoding: NSUTF8StringEncoding) {
-//            print("Part 2: \(datastring)")
+            print("Part 2: \(datastring)")
         }
     }
 
@@ -147,7 +147,11 @@ class WeatherModel {
     }
 
     func getWeather()->String? {
-        return "The weather in \(self.location!) is \(self.temp!)F with a low of \(self.min!)F and a high of \(self.max!)F"
+        if let location = self.location, temp = self.temp, temp_min = self.min, temp_max = self.max {
+        return "The weather in \(location) is \(temp)F with a low of \(temp_min)F and a high of \(temp_max)F"
+        } else {
+            return "temp data not found"
+        }
     }
     
     func getAPIUrl()-> String{
