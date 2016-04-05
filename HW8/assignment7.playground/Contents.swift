@@ -53,7 +53,7 @@ var google = Get(url: "https://www.google.com")
 
 google.call { (result, response, error) -> Void in
     if let result = result {
-        let datastring = NSString(data: result, encoding: NSUTF8StringEncoding)
+        let datastring = NSString(data: result, encoding: NSASCIIStringEncoding)
         print("Part 1: \(datastring)")
     }
     if let response = response as? NSHTTPURLResponse {
@@ -82,7 +82,7 @@ foobaz.call{ (result, response, error) -> Void in
     }
     if let result = result {
         if let datastring = NSString(data: result, encoding: NSUTF8StringEncoding) {
-            print("Part 2: \(datastring)")
+//            print("Part 2: \(datastring)")
         }
     }
 
